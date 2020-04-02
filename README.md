@@ -9,6 +9,10 @@
 
 !["good-swiper"](/screenshots/1.gif)
 
+## Live Demo
+
+[点击查看](https://konglingwen94.github.io/good-swiper/examples/index.html)
+
 ## Usage
 
 ```javascript
