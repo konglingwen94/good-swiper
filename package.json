@@ -4,12 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "vue-cli-service serve test/main.vue"
+    "test": "vue-cli-service serve test/main.vue",
+    "build": "vue-cli-service build --target lib src/main.js --dest lib"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@vue/cli-service": "^4.2.3"
+    "@vue/cli-service": "^4.2.3",
+    "less": "^3.11.1",
+    "less-loader": "^5.0.0"
   }
 }

@@ -1,5 +1,6 @@
 import Vue from 'vue'
-import {Swiper,SwiperItem} from '../src/main.js'
+import {Swiper,SwiperItem} from '../lib/vue-swiper.umd.min.js'
+// import {Swiper,SwiperItem} from '../src/main.js'
 import App from './main.vue'
 
 Vue.component(Swiper.name, Swiper)
