@@ -2,7 +2,7 @@
 
 ## Install
 
-> npm install vue-swiper --save-dev
+> npm install good-swiper --save-dev
 
 ## Usage
 
