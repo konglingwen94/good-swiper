@@ -1,0 +1,15 @@
+{
+  "name": "vue-swiper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "vue-cli-service serve test/main.vue"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@vue/cli-service": "^4.2.3"
+  }
+}
