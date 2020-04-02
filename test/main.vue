@@ -1,6 +1,6 @@
 <template>
   <div>
-    swiper
+     
     <Swiper
       trigger="hover"
       autoplay
@@ -10,7 +10,7 @@
       :interval="2000"
     >
       <swiper-item v-for="item in list" :key="item">
-        <img :src="item" alt />
+        <img width="100%" :src="item" alt />
       </swiper-item>
     </Swiper>
   </div>
@@ -22,9 +22,9 @@ export default {
   data() {
     return {
       list: [
-        'https://t10.baidu.com/it/u=22980423,2454538972&fm=76',
-        'https://t11.baidu.com/it/u=1926029254,2053310840&fm=76',
-        'https://dgss1.baidu.com/6ONXsjip0QIZ8tyhnq/it/u=287036479,2233760786&fm=173&app=49&f=JPEG?w=312&h=208&s=54991DD70EEA3C94CDBD9CA70300A001'
+        'http://t9.baidu.com/it/u=2268908537,2815455140&fm=79&app=86&size=h300&n=0&g=4n&f=jpeg?sec=1586431033&t=df8cf8db28ce18eb4bd87c514ed387f1',
+        'http://t8.baidu.com/it/u=2247852322,986532796&fm=79&app=86&size=h300&n=0&g=4n&f=jpeg?sec=1586431033&t=16f3494b0cb39b696b5ef2d076d97397',
+        'http://t9.baidu.com/it/u=583874135,70653437&fm=79&app=86&size=h300&n=0&g=4n&f=jpeg?sec=1586431033&t=b79388e1b52551b520ef52a38d2dec08'
       ]
     }
   }

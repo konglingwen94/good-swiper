@@ -4,6 +4,11 @@
 
 > npm install good-swiper --save-dev
 
+
+## Screenshots
+
+!["good-swiper"](/screenshots/1.gif)
+
 ## Usage
 
 ```javascript
@@ -48,7 +53,7 @@ Vue.component(SwiperItem.name, SwiperItem)
 | autoplay  | Boolean |                是否自动播放                |  false  |
 |  trigger  | String  | 指示器触发方式（可选值为 click \| hover）  |  click  |
 | direction | String  | 轮播图默认滚动方向(可选值为:left \| right) |  left   |
-
+|  height   | String  |         轮播图容器高度 (单位"px")          |  300px  |
 
 ## Swiper Methods
 
