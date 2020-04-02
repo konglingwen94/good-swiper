@@ -1,13 +1,17 @@
 {
   "name": "good-swiper",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A lightweight swiper component based on Vue",
   "main": "lib/good-swiper.umd.min.js",
   "scripts": {
     "test": "vue-cli-service serve test/main.vue",
     "build": "vue-cli-service build --target lib src/main.js --dest lib"
   },
-  "keywords": ["vue-swiper","swiper","carousel"],
+  "keywords": [
+    "vue-swiper",
+    "swiper",
+    "carousel"
+  ],
   "author": "",
   "license": "ISC",
   "devDependencies": {
